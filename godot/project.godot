@@ -239,6 +239,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://src/main/save/SaveGame.gd"
 }, {
+"base": "Object",
+"class": "SceneManagerConstants",
+"language": "GDScript",
+"path": "res://addons/scene_manager/SceneManagerConstants.gd"
+}, {
 "base": "Resource",
 "class": "Skill",
 "language": "GDScript",
@@ -311,6 +316,7 @@ _global_script_class_icons={
 "QuestSlayObjective": "",
 "RectExtents": "",
 "SaveGame": "",
+"SceneManagerConstants": "",
 "Skill": "",
 "SkillAction": "",
 "StartCombatAction": "",
