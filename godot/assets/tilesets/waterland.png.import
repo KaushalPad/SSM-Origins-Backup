@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/godette_pawn.png-ca9dcb9e07516d0413d95d19c121b9ff.stex"
+path="res://.import/waterland.png-4c3f142d1c885b69eb5ba716448eba8c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/local_map/characters/godette_pawn.png"
-dest_files=[ "res://.import/godette_pawn.png-ca9dcb9e07516d0413d95d19c121b9ff.stex" ]
+source_file="res://assets/tilesets/waterland.png"
+dest_files=[ "res://.import/waterland.png-4c3f142d1c885b69eb5ba716448eba8c.stex" ]
 
 [params]
 

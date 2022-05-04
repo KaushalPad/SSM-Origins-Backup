@@ -5,6 +5,7 @@
 [ext_resource path="res://src/combat/battlers/enemies/porcupine/PorcupineBattler.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/sprites/battlers/porcupine_portrait_256.png" type="Texture" id=4]
 
+
 [node name="Formation" type="Node"]
 script = ExtResource( 1 )
 platform_template = ExtResource( 2 )

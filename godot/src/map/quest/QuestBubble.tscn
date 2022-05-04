@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://src/quest/QuestBubble.gd" type="Script" id=1]
+[ext_resource path="res://src/map/quest/QuestBubble.gd" type="Script" id=1]
 [ext_resource path="res://assets/sprites/icons/npc_quest_active.png" type="Texture" id=2]
 [ext_resource path="res://assets/sprites/icons/npc_quest_available.png" type="Texture" id=3]
 [ext_resource path="res://assets/sprites/icons/npc_quest_finished.png" type="Texture" id=4]
@@ -23,11 +23,6 @@ tracks/0/keys = {
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
-"loop": false,
-"name": "quest_active",
-"speed": 0.0
-}, {
 "frames": [ ExtResource( 3 ) ],
 "loop": false,
 "name": "quest_available",
@@ -36,6 +31,11 @@ animations = [ {
 "frames": [ ExtResource( 4 ) ],
 "loop": false,
 "name": "quest_complete",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": false,
+"name": "quest_active",
 "speed": 0.0
 } ]
 

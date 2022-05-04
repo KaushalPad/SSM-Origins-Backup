@@ -6,10 +6,6 @@
 [ext_resource path="res://assets/animations/take_damage.anim" type="Animation" id=4]
 [ext_resource path="res://src/main/utils/RectExtents.tscn" type="PackedScene" id=5]
 
-
-
-
-
 [node name="BattlerAnim" type="Position2D"]
 script = ExtResource( 1 )
 
@@ -25,4 +21,3 @@ anims/take_damage = ExtResource( 4 )
 blend_times = [  ]
 
 [node name="RectExtents" parent="." instance=ExtResource( 5 )]
-
