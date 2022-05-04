@@ -3,11 +3,7 @@
 [ext_resource path="res://src/map/pawns/PawnFollower.gd" type="Script" id=1]
 [ext_resource path="res://src/map/pawns/PawnAnim.tscn" type="PackedScene" id=2]
 
-
-
-
 [sub_resource type="RectangleShape2D" id=1]
-
 extents = Vector2( 30, 30 )
 
 [node name="Follower" type="KinematicBody2D"]
@@ -22,4 +18,3 @@ script = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
-

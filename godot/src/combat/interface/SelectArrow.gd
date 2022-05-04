@@ -5,7 +5,8 @@ signal target_selected(battler)
 onready var anim_player = $Sprite/AnimationPlayer
 onready var tween = $Tween
 
-export var MOVE_DURATION: float = 0.1
+export var MOVE_DURATION: float = 0.1	
+export(int) var speed = 3.0
 
 const DIRECTION_UP = Vector2(0.0, -1.0)
 const DIRECTION_LEFT = Vector2(-1.0, 0.0)
