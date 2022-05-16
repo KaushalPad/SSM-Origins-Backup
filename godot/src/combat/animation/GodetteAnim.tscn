@@ -5,17 +5,18 @@
 [ext_resource path="res://assets/sprites/battlers/UmertheBrawlstar.png" type="Texture" id=3]
 
 [node name="GodetteAnim" instance=ExtResource( 1 )]
+position = Vector2( -9, 141 )
 
 [node name="shadow" type="Sprite" parent="." index="0"]
-position = Vector2( -0.160036, -0.0731697 )
-scale = Vector2( 0.762084, 1.14634 )
+position = Vector2( 25.3539, 26.1237 )
+scale = Vector2( 1.02785, 2.39381 )
 texture = ExtResource( 2 )
 
 [node name="body" type="Sprite" parent="." index="1"]
-position = Vector2( 8, -127 )
-scale = Vector2( 0.75, 0.75 )
+position = Vector2( 39.8407, -87.2442 )
+scale = Vector2( 1.92322, 2.02592 )
 texture = ExtResource( 3 )
 
 [node name="RectExtents" parent="." index="3"]
 position = Vector2( 3.11111, -108.444 )
-size = Vector2( 165.333, 223.556 )
+size = Vector2( 3731.78, 3062.89 )
